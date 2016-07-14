@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>XCCCappuccinoObjjIncludePathKey</key>
-	<string>/Users/justinmoore/Documents/Developer/USBandsWebApp/Volunteer/Frameworks/Debug</string>
+	<string>/Users/justinmoore/Documents/Developer/USBandsWebApp/Frameworks/Debug</string>
 	<key>XCCCappuccinoProcessCappLintKey</key>
 	<false/>
 	<key>XCCCappuccinoProcessNib2CibKey</key>
@@ -17,7 +17,7 @@
 		<string>~/bin</string>
 	</array>
 	<key>XCCCappuccinoProjectNicknameKey</key>
-	<string>Volunteer</string>
+	<string>USBandsWebApp</string>
 	<key>XCCCappuccinoProjectPreviousStatusKey</key>
 	<integer>1</integer>
 	<key>XCCCompatibilityVersion</key>
