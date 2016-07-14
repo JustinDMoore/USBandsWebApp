@@ -361,14 +361,29 @@
                     <popUpButton verticalHuggingPriority="750" id="ZNv-uH-28u">
                         <rect key="frame" x="224" y="56" width="105" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="bq2-H8-Rco" id="U9P-yD-cIV">
+                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" pullsDown="YES" selectedItem="bq2-H8-Rco" id="U9P-yD-cIV">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" id="KOI-B1-vgg">
                                 <items>
-                                    <menuItem title="Item 1" state="on" id="bq2-H8-Rco"/>
+                                    <menuItem title="Item 1" state="on" hidden="YES" id="bq2-H8-Rco"/>
                                     <menuItem title="Item 2" id="3lz-W7-3mc"/>
                                     <menuItem title="Item 3" id="oEV-87-bim"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <popUpButton verticalHuggingPriority="750" id="cmr-gO-owB">
+                        <rect key="frame" x="51" y="39" width="76" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="uEb-Z2-JSX" id="Rmd-ou-9gm">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" id="Y1Z-5A-z4q">
+                                <items>
+                                    <menuItem title="Item 1" state="on" id="uEb-Z2-JSX"/>
+                                    <menuItem title="Item 2" id="nKA-Co-9g8"/>
+                                    <menuItem title="Item 3" id="S4m-cz-jEY"/>
                                 </items>
                             </menu>
                         </popUpButtonCell>
