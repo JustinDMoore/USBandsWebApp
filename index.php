@@ -1,1 +1,1 @@
-<?php include_once("/Volunteer/index.html"); ?>
+<?php include_once("home.html"); ?>
