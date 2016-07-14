@@ -18,7 +18,7 @@
     var theWindow = [[CPWindow alloc] initWithContentRect:CGRectMakeZero() styleMask:CPBorderlessBridgeWindowMask],
         contentView = [theWindow contentView];
 
-	[contentView setBackgroundColor: [UIColor blackColor]];
+	[contentView setBackgroundColor:[CPColor blackColor]];
 
     [theWindow orderFront:self];
 
