@@ -24,6 +24,14 @@
 
     // Uncomment the following line to turn on the standard menu bar.
     //[CPMenu setMenuBarVisible:YES];
+    
+    var HUDPanel = [[CPPanel alloc]
+    initWithContentRect:CGRectMake(0, 0, 225, 125)
+    styleMask:CPHUDBackgroundWindowMask | CPClosableWindowMask];
+
+	[HUDPanel setFloatingPanel:YES];
+
+	[HUDPanel orderFront:self];
 }
 
 @end
