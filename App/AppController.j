@@ -27,7 +27,7 @@
     
     var HUDPanel = [[CPPanel alloc]
     initWithContentRect:CGRectMake(0, 0, 225, 125)
-    styleMask:CPHUDBackgroundWindowMask | CPClosableWindowMask];
+    styleMask: CPClosableWindowMask];
 
 	[HUDPanel setFloatingPanel:YES];
 
